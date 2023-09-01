@@ -18,5 +18,5 @@ def Quicksort(T, begin, end):
         Quicksort(T, pivot+1, end)
         return T
 
-K = [1,2,0,5,-2,-9]
+K = [1,2,0,5,-2,-10]
 print(Quicksort(K, 0, len(K)-1))
